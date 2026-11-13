@@ -71,7 +71,7 @@ class Game:
             elif event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_ESCAPE:
                     self.running = False
-                if event.key== pygame.K_SPACE and not self.game_over
+                elif event.key== pygame.K_SPACE and not self.game_over:
                     bullet=self.player.shoot()
                     self.bullets.add(bullet)
                     self.all_sprites.add(bullet)
