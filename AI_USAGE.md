@@ -15,3 +15,5 @@ AI 를 전혀 쓰지 않았다면 표를 지우고 "이 과제에서 생성형 A
 |---|---|---|---|---|
 | 2026-11-12 | ChatGPT | F1 | 코드에서 플레이어의 위치를 가리키는 변수 질의 | 답변받은 self.rect.left 변수를 사용, 나머지는 직접 작성 |
 | 2026-11-12 | ChatGPT | F1 | 게임의 xy 축의 방향 질의 | 답변에 따라 좌표값을 변경하는 각 코드의 연산자를 설정함, 나머지는 직접 작성 |
+| 2026-11-13 | ChatGPT | F2 | 플레이어의 (가로 중앙) 좌표를 반환하는 표현식 질의 | ChatGPT가 제시한 self.rect.centerx를 사용하여 직접 작성 |
+| 2026-11-13 | ChatGPT | F3 | pygame.sprite.groupcollide의 기능 질의 | pygame.sprite.groupcollide 함수 설명에 따라 코드는 직접 작성 |
