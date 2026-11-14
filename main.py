@@ -78,7 +78,7 @@ class Game:
                     bullet=self.player.shoot()
                     self.bullets.add(bullet)
                     self.all_sprites.add(bullet)
-                elif event.key==pygame.K_R and self.game_over:
+                elif event.key==pygame.K_r and self.game_over:
                     self.reset()
 
     def handle_title_event(self, event):
